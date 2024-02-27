@@ -1,11 +1,12 @@
 body {
     font-family: Comforta
-    .comfortaa-<uniquifier> {
+}
+
+ .comfortaa-<uniquifier> {
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
 }
 
 * {
