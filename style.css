@@ -1,6 +1,11 @@
 body {
     font-family: Comforta-bold;
     font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 }
 
 * {
@@ -10,7 +15,7 @@ body {
 
 @font-face {
     font-family: Comforta-bold;
-    src: url(Шрифты/Comfortaa-Bold.ttf);
+    src: url(Comfortaa-Bold.ttf);
 }
 
 @font-face {
@@ -389,6 +394,8 @@ h2 a{
     .arrow {
         width: 40px;
     }
+    .made {
+        margin-left:400px;
 }
 
 .made {
