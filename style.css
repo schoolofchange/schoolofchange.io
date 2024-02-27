@@ -351,6 +351,17 @@ h2 a{
     }
 }
 
+@media (max-width:992px) {
+    .news {
+        display: none;
+    }
+
+    .adaptivny-slayder {
+        display: flex;
+        width: 800px;
+    }
+}
+
 @media (min-width:1200px) {
     .news {
         display: flex;
@@ -396,4 +407,6 @@ h2 a{
         width: 40px;
     }
 }
+
+
 
