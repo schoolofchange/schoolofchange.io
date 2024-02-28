@@ -372,6 +372,62 @@ h2 a{
     }
 }
 
+.events {
+    padding: 15px;
+    margin: 2px;
+}
+
+.events:hover {
+    text-decoration: none;
+    color: rgb(42, 192, 55);
+}
+
+.events-list {
+    background-color: rgb(42, 192, 55);
+    display: flex ;
+    list-style-type:none ;
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.event-item {
+    color: black;
+    text-decoration: none;
+    margin-left: 365px;
+    font-size: 30px;
+    width: 100px;
+}
+
+.event-item:hover {
+    text-decoration: underline;
+}
+
+.events-items {
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    background-color: rgb(42, 192, 55);
+}
+
+@media (max-width: 576px) {
+    .news1 {
+        width: 100px;
+        margin: 45px;
+    }
+
+    .news2 {
+        width: 100px;  
+        margin: 45px;
+    }
+
+    .news3 {
+        width: 100px;
+        margin: 45px;
+        display: none;
+    }
+}
+
 .foot {
     background-color: rgb(42, 192, 55);
     padding: 10px;
@@ -390,7 +446,6 @@ h2 a{
 
 .mail {
     color: rgb(255, 255, 255);
-
 }
 
 .mail:hover {
@@ -405,6 +460,48 @@ h2 a{
 
     .arrow {
         width: 40px;
+
+    }
+}
+
+.made {
+    margin-left: 1400px;
+    color: rgb(181, 189, 196);
+    text-decoration: none;
+}
+
+.made:hover {
+    color: white;
+}
+
+@media (max-width:992px) {
+    .made {
+        margin-left: 160px;
+    }
+}
+
+.tg-img {
+    width: 30px;
+    margin-left: -10px;
+    padding: 5px;
+}
+
+.vk-img {
+    width: 40px;
+    margin-left: -10px;
+    padding: 10px;
+}
+
+@media (max-width:576px) {
+    .vk-img {
+        width:20px;
+        padding: 5px;
+        
+    }
+
+    .tg-img {
+        width: 15px;
+        margin-left: -5px;
     }
 }
 
