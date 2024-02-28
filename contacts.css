@@ -180,34 +180,37 @@ body {
 }
 
 .foot {
-    background-color: red;
-
-}
-
-.footer {
-    background: rgb(42, 192, 55); 
-    padding-top: 0px; 
-    padding-bottom: 0px; 
+    background-color: rgb(42, 192, 55);
+    padding: 10px;
     display: flex;
-    margin: 0px;
 }
 
-
+.table {
+    list-style-type: none;
+    color:white;
+    margin-left: 50px;
+}
 
 .arrow {
-    width: 50px;
-    padding-left: 30px;
-    margin-top: 70px;
+    width: 70px;
 }
 
-
-.tfoot {
-    padding-left: 170px;
-    margin: 0;
+.mail {
     color: rgb(255, 255, 255);
+
 }
 
-.footer-menu-text {
-    padding-left: 100px;
-    color: white;
+.mail:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .table {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    .arrow {
+        width: 40px;
+    }
 }
