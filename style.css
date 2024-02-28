@@ -413,12 +413,12 @@ h2 a{
 @media (max-width: 576px) {
     .news1 {
         width: 100px;
-        margin: 45px;
+        margin: 35px;
     }
 
     .news2 {
         width: 100px;  
-        margin: 45px;
+        margin: 35px;
     }
 
     .news3 {
@@ -462,6 +462,9 @@ h2 a{
         width: 40px;
 
     }
+
+  .made {
+  margin-left: 50px;
 }
 
 .made {
