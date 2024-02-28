@@ -1,5 +1,5 @@
 body {
-    font-family: "Comfortaa", sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 
  .comfortaa-<uniquifier> {
@@ -12,7 +12,6 @@ body {
 * {
     padding: 0;
     margin: 0;
-}
 
 .header {
     display: flex;
@@ -21,7 +20,9 @@ body {
     padding: 0px 0px;
     box-sizing: border-box;
     background-color: transparent;
+    position: sticky;
 }
+
 
 
 .logo1 {
@@ -35,6 +36,7 @@ body {
 
 .menu {
     color: rgb(255, 255, 255);
+    font-weight: bold;
     display: flex;
     list-style: none; 
 
@@ -52,7 +54,6 @@ body {
 .menu li a:hover{
     color: rgb(42, 192, 55);
 }
-
 .line {
     background-color: rgb(42, 192, 55);
     display: flex;
