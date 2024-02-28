@@ -53,11 +53,12 @@ body {
 .menu li a:hover{
     color: rgb(42, 192, 55);
 }
-.line {
+  
+.runline {
     background-color: rgb(42, 192, 55);
     display: flex;
     background-size: auto;
-    color: rgb(42, 192, 55);
+    color: rgb(255, 255, 255);
 }
 
 .contacts {
