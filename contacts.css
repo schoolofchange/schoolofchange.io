@@ -1,18 +1,17 @@
 body {
-    font-family: Comfortaa;
-    font-family: "Comfortaa";
-  font-weight: weight;
+    font-family: "Comfortaa", sans-serif;
+}
+
+ .comfortaa-<uniquifier> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
 
 * {
     padding: 0;
     margin: 0;
-}
-
-@font-face {
-    font-family: Comforta-bold;
-    src: url(Шрифты/Comfortaa-Bold.ttf);
 }
 
 .header {
