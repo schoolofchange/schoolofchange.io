@@ -487,12 +487,14 @@ h2 a{
     width: 10px;
     margin-left: -10px;
     padding: 5px;
+  display:none;
 }
 
 .vk-img {
     width: 10px;
     margin-left: -10px;
     padding: 10px;
+  display: none;
 }
 
 @media (max-width:576px) {
