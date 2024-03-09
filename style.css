@@ -206,7 +206,7 @@ body {
     box-shadow: none;
     border: medium solid rgb(0, 0, 0);
     border-radius: 15px;
-    font-family: Comforta-bold;
+    font-family: "Comfortaa", sans-serif;
     font-size: 15px;
     padding: 5px;
     color: rgb(255, 255, 255);
@@ -357,7 +357,7 @@ h2 a{
     box-shadow: none;
     border: medium solid black;
     border-radius: 15px;
-    font-family: Comforta-bold;
+    font-family: "Comfortaa", sans-serif;
     font-size: 15px;
     padding: 7px;
     color: rgb(255, 255, 255);
