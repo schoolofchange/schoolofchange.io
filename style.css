@@ -472,3 +472,18 @@ video {
     font-family: "Comfortaa-Light";
     font-size: larger;
 }
+
+.about-school {
+    background-color: black;
+}
+
+.slogan {
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    .slogan {
+        font-size: 20px;
+        font-family: "Comforta-bold";
+    }
+}
