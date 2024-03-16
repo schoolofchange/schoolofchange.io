@@ -2,6 +2,7 @@ body {
     font-family: "Comforta-bold";
     scrollbar-color: rgb(42, 192, 55) white;
     background-color: black;
+    color: white;
 }
 
 * {
@@ -39,6 +40,10 @@ body {
     position: relative;
 }
 
+.logo1:hover {
+    transform: translateY(-10%);
+    transition: .6s;
+}
 * {
     padding: 0; margin: 0;
 }
@@ -55,7 +60,7 @@ body {
 }
 
 .menu li:hover {
-    transform:translateY(-15%)
+    transform:translateY(-15%);
     transition:.4s;
 }
 
@@ -65,7 +70,7 @@ body {
 }
 
 .menu li a:hover{
-    color: rgb(42, 192, 55);
+    color: rgb(21, 184, 116);
 }
 
 .burger-checkbox {
