@@ -1,6 +1,6 @@
 body {
     font-family: "Comforta-bold";
-    scrollbar-color: rgb(42, 192, 55) white;
+    scrollbar-color: rgb(21, 184, 116), white;
     background-color: black;
     color: white;
 }
@@ -12,17 +12,17 @@ body {
 
 @font-face {
     font-family: Comforta-bold;
-    src: url(Comfortaa-Bold.ttf);
+    src: url(Шрифты/Comfortaa-Bold.ttf);
 }
 
 @font-face {
     font-family: Comfortaa-Regular;
-    src: url(Comfortaa-Regular.ttf);
+    src: url(Шрифты/Comfortaa-Regular.ttf);
 }
 
 @font-face {
     font-family: Comfortaa-Light;
-    src: url(Comfortaa-Light.ttf);
+    src: url(Шрифты/Comfortaa-Light.ttf);
 }
 
 .header {
@@ -38,12 +38,14 @@ body {
     width: 50px;
     padding-left: 10px;
     position: relative;
+    margin: 10px;
 }
 
 .logo1:hover {
-    transform: translateY(-10%);
+    transform: translateY(-15%);
     transition: .6s;
 }
+
 * {
     padding: 0; margin: 0;
 }
@@ -53,6 +55,7 @@ body {
     font-weight: bold;
     display: flex;
     list-style: none; 
+
 }
 
 .menu li{
@@ -60,16 +63,17 @@ body {
 }
 
 .menu li:hover {
-    transform:translateY(-15%);
-    transition:.4s;
+    transform: translateY(-15%);
+    transition: .3s;
 }
 
 .menu li a{
-    text-decoration: none; 
-    color:white; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .menu li a:hover{
+    transition: .3s;
     color: rgb(21, 184, 116);
 }
 
@@ -97,7 +101,7 @@ body {
     width: 100%;
     height: 4px;
     border-radius: 10px;
-    background: white;
+    background: #ffffff;
   }
   .burger::before {
     top: 0;
@@ -111,7 +115,7 @@ body {
   .burger-checkbox:checked + .burger::before {
     top: 11px;
     transform: rotate(45deg);
-    box-shadow: white;
+    box-shadow: 0 6px 0 rgba(0,0,0,0);
     transition: box-shadow .15s, top .3s, transform .3s .15s;
   }
   .burger-checkbox:checked + .burger::after {
@@ -126,7 +130,7 @@ body {
     gap: 12px;
     padding: 42px 0;
     margin: 0;
-    background-color:  rgb(42, 192, 55, .5);
+    background-color:  rgba(129, 131, 129, 0.7);
     list-style-type: none;
     transform: translateX(-100%);
     transition: .5s;
@@ -145,11 +149,13 @@ body {
     font-size: 18px;
     text-align: center;
     text-decoration: none;
-  }
-  .menu-item:hover {
-    background: rgba(255,255,255,.2)
-  }
-  .burger-checkbox:checked ~ .menu-list {
+}
+.menu-item:hover {
+    background: rgba(255,255,255,.5);
+    transform: translateY(-10%);
+    transition: .4s;
+}
+.burger-checkbox:checked ~ .menu-list {
     transform: translateX(0);
 }
 
@@ -194,7 +200,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 200px;
+    padding: 100px;
     font-size: 25px;
     background-color: black;
 }
@@ -203,6 +209,7 @@ body {
     .history {
         padding: 70px;
         font-family: "Comfortaa-Regular";
+        font-size: 15px;
     }
 }
 
@@ -229,7 +236,7 @@ body {
 
 
 h2 a:hover {
-    color: rgb(42, 192, 55);
+    color: rgb(21, 184, 116);
     text-decoration: none;
 }
 
@@ -274,7 +281,7 @@ h2 a{
 
 .contacts-name:hover {
     text-decoration: none;
-    color: rgb(42, 192, 55);
+    color: rgb(21, 184, 116);
 }
 
 .table-info {
@@ -354,28 +361,28 @@ h2 a{
 
 .news-link {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: large;
 }
 
 .news-link:hover {
-    color: rgb(42, 192, 55);
+    color: rgb(21, 184, 116);
 }
 
 .news-name:hover {
-    color: rgb(42, 192, 55);
+    color: rgb(21, 184, 116);
     text-decoration: none;
 }
 
 .tg-news {
-    background-color: rgb(42, 192, 55);
+    background-color: rgb(21, 184, 116);
     box-shadow: none;
-    border: medium solid black;
+    border: medium solid rgb(255, 255, 255);
     border-radius: 15px;
     font-family: Comforta-bold;
     font-size: 15px;
     padding: 7px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .button {
@@ -392,12 +399,13 @@ h2 a{
 }
 
 .arrow-down:hover {
-    color: rgb(42, 192, 55);
-    margin-top: 3px;
+    color: rgb(21, 184, 116);
+    transform: translateY(15%);
+    transition: .5s;
 }
 
 .more{
-    color: rgb(42, 192, 55);
+    color: rgb(21, 184, 116);
     text-decoration: none;
 }
 
@@ -411,7 +419,7 @@ h2 a{
 }
 
 .foot {
-    background-color: rgb(42, 192, 55);
+    background-color: rgb(21, 184, 116);
     padding: 10px;
     display: flex;
 }
@@ -424,6 +432,11 @@ h2 a{
 
 .arrow {
     width: 70px;
+}
+
+.arrow:hover {
+    transform: translateY(-10%);
+    transition: .5s;
 }
 
 .mail {
@@ -446,6 +459,12 @@ h2 a{
     }
 }
 
+.ar-dwn:hover {
+    color: rgb(21, 184, 116);
+    transform: translateY(15%);
+    transition: .5s;
+}
+
 .sch-headline {
     background-color: black;
     padding: 10px;
@@ -466,8 +485,18 @@ video {
     margin-right: 10px;
 }
 
+.tg-img:hover {
+    transform: translateY(-10%);
+    transition: .6s;
+}
+
 .vk-img {
     width: 85px;
+}
+
+.vk-img:hover {
+    transform: translateY(-10%);
+    transition: .6s;
 }
 
 @media (max-width:576px) {
