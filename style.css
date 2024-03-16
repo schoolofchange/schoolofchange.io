@@ -1,6 +1,5 @@
 body {
     font-family: "Comfortaa-bold";
-    scrollbar-color: rgb(21, 184, 116), white;
     background-color: black;
     color: white;
 }
@@ -228,7 +227,7 @@ body {
     box-shadow: none;
     border: medium solid rgb(255, 255, 255);
     border-radius: 15px;
-    font-family: Comforta-bold;
+    font-family: Comfortaa-bold;
     font-size: 15px;
     padding: 5px;
     color: rgb(255, 255, 255);
@@ -473,11 +472,6 @@ h2 a{
 .sch-name {
     color: rgb(255, 255, 255);
     font-size: 50px;
-}
-
-
-video {
-    width: 100%;
 }
 
 .tg-img {
