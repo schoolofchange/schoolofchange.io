@@ -92,7 +92,7 @@ body {
     width: 100%;
     height: 4px;
     border-radius: 10px;
-    background: #000000;
+    background: white;
   }
   .burger::before {
     top: 0;
@@ -106,7 +106,7 @@ body {
   .burger-checkbox:checked + .burger::before {
     top: 11px;
     transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
+    box-shadow: white;
     transition: box-shadow .15s, top .3s, transform .3s .15s;
   }
   .burger-checkbox:checked + .burger::after {
@@ -121,7 +121,7 @@ body {
     gap: 12px;
     padding: 42px 0;
     margin: 0;
-    background-color:  rgb(42, 192, 55);
+    background-color:  rgb(42, 192, 55, .5);
     list-style-type: none;
     transform: translateX(-100%);
     transition: .5s;
