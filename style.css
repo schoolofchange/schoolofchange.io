@@ -12,17 +12,17 @@ body {
 
 @font-face {
     font-family: Comforta-bold;
-    src: url(Шрифты/Comfortaa-Bold.ttf);
+    src: url(Comfortaa-Bold.ttf);
 }
 
 @font-face {
     font-family: Comfortaa-Regular;
-    src: url(Шрифты/Comfortaa-Regular.ttf);
+    src: url(Comfortaa-Regular.ttf);
 }
 
 @font-face {
     font-family: Comfortaa-Light;
-    src: url(Шрифты/Comfortaa-Light.ttf);
+    src: url(Comfortaa-Light.ttf);
 }
 
 .header {
