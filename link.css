@@ -1,0 +1,46 @@
+body {
+    font-family: "Comfortaa-bold";
+    color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: Comfortaa-bold;
+    src: url(Comfortaa-Bold.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa-Regular;
+    src: url(Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa-Light;
+    src: url(Comfortaa-Light.ttf);
+}
+
+
+.logo-crc {
+    width: 150px;
+}
+
+.dscrp {
+    font-size: 15px;
+}
+
+.menu {
+    padding: 30px;
+}
+
+.menu-txt {
+    background-image: url(1676590221_catherineasquithgallery-com-p-fon-gradient-sine-zelenii-216.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    padding: 20px;
+}
+
+.menu-txt a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+

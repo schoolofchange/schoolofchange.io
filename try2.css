@@ -1,0 +1,200 @@
+body {
+    font-family: "Comfortaa-bold";
+    color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Comfortaa-bold;
+    src: url(Comfortaa-Bold.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa-Regular;
+    src: url(Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa-Light;
+    src: url(Comfortaa-Light.ttf);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.logo1 {
+    width: 50px;
+    padding-left: 10px;
+    position: relative;
+    margin: 10px;
+}
+
+.logo1:hover {
+    transform: translateY(-15%);
+    transition: .6s;
+}
+
+* {
+    padding: 0; margin: 0;
+}
+
+.menu {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    list-style: none; 
+
+}
+
+.menu li{
+    margin: 30px;
+}
+
+.menu li:hover {
+    transform: translateY(-15%);
+    transition: .3s;
+}
+
+.menu li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    transition: .3s;
+    color: rgb(21, 184, 116);
+}
+
+.logo {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding: 300px;
+    background-image: url(1676590221_catherineasquithgallery-com-p-fon-gradient-sine-zelenii-216.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin:20px;
+}
+
+.main-txt {
+    font-size: 105px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.main-dsc {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:768px) {
+    .main-txt {
+        font-size: 70px;
+    }
+
+    .main-dsc {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:768px) {
+    .menu__burger {
+        display: none;
+    }
+
+    .logo-crc {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .menu2 {
+        display: none;
+    }
+}
+
+.links a  {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 15px;
+    margin:20px;
+}
+
+@media (max-width:768px) {
+    .menu {
+        display: none;
+    }
+
+    .logo-crc {
+        width: 70px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo1 {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+    }
+
+
+
+    .main {
+        padding: 60px;
+    }
+
+    .main-txt{
+        font-size: 30px;
+    }
+
+    .main-dsc {
+        font-size: 17px;
+    }
+
+    .menu__burger {
+        display: flex;
+    }
+}
+
+.logo2 {
+    width: 60px;
+}
+
+.logo2:hover {
+    transform: translateY(-10%);
+    transition: 1s;
+}
+
+.menu2 {
+    background-image: url(1676590221_catherineasquithgallery-com-p-fon-gradient-sine-zelenii-216.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.menu2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
