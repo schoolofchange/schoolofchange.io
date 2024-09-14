@@ -36,8 +36,9 @@ body {
     border-radius: 15px;
     background-size: cover;
     padding: 20px;
-    color: grey;
+    color: rgb(207, 205, 205);
 }
+
 
 .menu-txt a {
     text-decoration: none;
