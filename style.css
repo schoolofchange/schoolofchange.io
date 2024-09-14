@@ -110,6 +110,13 @@ body {
     }
 }
 
+@media (max-width:960px) {
+    .main-txt {
+        font-size: 80px;
+    }
+}
+
+
 @media (min-width:768px) {
     .menu__burger {
         display: none;
