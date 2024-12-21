@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: ST;
-    src: url(ST-Nizhegorodsky.otf);
+    src: url(Fatal\ \(TRIAL\)\ Bold.ttf );
 }
 
 .header {
@@ -389,7 +389,7 @@ footer {
     .menu1 {
         color: rgb(53, 53, 53);
         list-style: none; 
-        font-size: 0px;
+        font-size: 15px;
         border-radius: 20px;
         background-color: #ffffff85;
     }
