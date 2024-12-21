@@ -9,8 +9,9 @@ body {
 
 @font-face {
     font-family: ST;
-    src: url(Fatal\ \(TRIAL\)\ Bold.ttf );
+    src: url(ST-Nizhegorodsky.otf);
 }
+
 .header {
     display: flex;
     justify-content: space-between;
